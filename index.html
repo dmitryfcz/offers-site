@@ -11,41 +11,49 @@
    <body>
       <div class="container min-vh-100 d-flex justify-content-center align-items-center">
          <form id="form" class="p-5">
-            <p><strong id="phrase1"></strong></p>
+            <p class="text-center"><strong id="phrase1"></strong></p>
             <div class="form-check">
-               <input class="form-check-input" type="radio" name="option" id="option1" value="Make money">
-               <label class="form-check-label" for="option1" id="phrase2"></label>
-               <div class="text-muted mb-2" id="phrase3"></div>
+               <input class="form-check-input" type="checkbox" name="option" id="option1" value="Make money">
+               <label class="form-check-label" for="option1">
+                  <strong id="phrase2"></strong>
+                  <div class="text-muted mb-2" id="phrase3"></div>
+               </label>
             </div>
             <div class="form-check">
-               <input class="form-check-input" type="radio" name="option" id="option2" value="Gambling">
-               <label class="form-check-label" for="option2" id="phrase4"></label>
-               <div class="text-muted mb-2" id="phrase5"></div>
+               <input class="form-check-input" type="checkbox" name="option" id="option2" value="Gambling">
+               <label class="form-check-label" for="option2">
+                  <strong id="phrase4"></strong>
+                  <div class="text-muted mb-2" id="phrase5"></div>
+               </label>
             </div>
             <div class="form-check">
-               <input class="form-check-input" type="radio" name="option" id="option3" value="Online dating">
-               <label class="form-check-label" for="option3" id="phrase6"></label>
-               <div class="text-muted mb-2" id="phrase7"></div>
+               <input class="form-check-input" type="checkbox" name="option" id="option3" value="Online dating">
+               <label class="form-check-label" for="option3">
+                  <strong id="phrase6"></strong>
+                  <div class="text-muted mb-2" id="phrase7"></div>
+               </label>
             </div>
             <div class="form-check">
-               <input class="form-check-input" type="radio" name="option" id="option4" value="Sweepstakes">
-               <label class="form-check-label" for="option4" id="phrase8"></label>
-               <div class="text-muted mb-2" id="phrase9"></div>
+               <input class="form-check-input" type="checkbox" name="option" id="option4" value="Sweepstakes">
+               <label class="form-check-label" for="option4">
+                  <strong id="phrase8"></strong>
+                  <div class="text-muted mb-2" id="phrase9"></div>
+               </label>
             </div>
-            <p class="mt-3"><strong id="phrase10"></strong></p>
+            <p class="mt-3 text-center"><strong id="phrase10"></strong></p>
             <div class="btn-group d-flex gender">
-               <input type="radio" class="btn-check" name="gender" id="male" value="male">
+               <input type="radio" class="btn-check" name="gender" id="male" value="male" required>
                <label class="btn w-100 btn-outline-secondary px-4 d-flex align-items-center justify-content-center" for="male">
                <img src="img/male.svg" class="pe-2 opacity-50">
                <span id="phrase11"></span>
                </label>
-               <input type="radio" class="btn-check" name="gender" id="female" value="female">
+               <input type="radio" class="btn-check" name="gender" id="female" value="female" required>
                <label class="btn w-100 btn-outline-secondary px-4 d-flex align-items-center justify-content-center" for="female">
                <img src="img/female.svg" class="pe-2 opacity-50">
                <span id="phrase12"></span>
                </label>
             </div>
-            <p class="mt-3"><strong id="phrase13"></strong></p>
+            <p class="mt-3 text-center"><strong id="phrase13"></strong></p>
             <select class="form-select" name="age">
                <option value="10">10</option>
                <option value="11">11</option>
@@ -119,10 +127,10 @@
                <option value="79">79</option>
                <option value="80">80</option>
             </select>
-            <p class="mt-3"><strong id="phrase14"></strong></p>
+            <p class="mt-3 text-center"><strong id="phrase14"></strong></p>
             <input class="form-control" type="tel" placeholder="" id="phone" name="phone" required >
             <div class="invalid-feedback d-block" id="error-msg"></div>
-            <p class="mt-3"><strong id="phrase15"></strong></p>
+            <p class="mt-3 text-center"><strong id="phrase15"></strong></p>
             <input class="form-control" type="email" placeholder="" id="email" name="email" required >
             <button id="button" type="submit" class="btn btn-primary w-100 mt-4"></button>
          </form>

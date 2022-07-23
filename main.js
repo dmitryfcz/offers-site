@@ -56,7 +56,7 @@ form.addEventListener('submit', function(event) {
 	}
 	var data = new FormData(event.target);
 	var formData = {
-		option: data.get("option"),
+		option: data.getAll("option"),
 		gender: data.get("gender"),
 		age: data.get("age"),
 		phone: data.get("phone"),
