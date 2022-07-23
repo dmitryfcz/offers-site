@@ -15,6 +15,8 @@ var translation = {
         phrase13: 'Your age: *',
         phrase14: 'Your phone: *',
         phrase15: 'Your email: *',
+        phrase16: 'Thank you!',
+        phrase17: 'We will contact you shortly.',
         email: 'Your email',
         button: 'Get offers',
     }

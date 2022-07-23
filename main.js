@@ -89,5 +89,7 @@ document.getElementById("phrase12").innerHTML = translationData.phrase12;
 document.getElementById("phrase13").innerHTML = translationData.phrase13;
 document.getElementById("phrase14").innerHTML = translationData.phrase14;
 document.getElementById("phrase15").innerHTML = translationData.phrase15;
+document.getElementById("phrase16").innerHTML = translationData.phrase16;
+document.getElementById("phrase17").innerHTML = translationData.phrase17;
 document.getElementById("email").placeholder = translationData.email;
 document.getElementById("button").innerHTML = translationData.button;
