@@ -18,6 +18,27 @@ var translation = {
         phrase16: 'Thank you!',
         phrase17: 'We will contact you shortly.',
         email: 'Your email',
-        button: 'Get offers',
+        button: 'Get offers'
+    },
+    es: {
+        phrase1: 'Elige las opciones que te interesan:',
+        phrase2: 'Gana dinero',
+        phrase3: 'Entrenamiento libre. Depósito mínimo 100$.',
+        phrase4: 'Apuestas',
+        phrase5: 'Giros gratis. Bono de bienvenida 50$.',
+        phrase6: 'Citas en línea',
+        phrase7: 'Conoce a un amigo para una relación a largo plazo o diversión.',
+        phrase8: 'Sorteo',
+        phrase9: 'Gana regalos y cupones de tiendas y marcas famosas hasta 500$.',
+        phrase10: 'Tu género: *',
+        phrase11: 'Masculino',
+        phrase12: 'Mujer',
+        phrase13: 'Tu edad: *',
+        phrase14: 'Tu teléfono: *',
+        phrase15: 'Tu correo electrónico: *',
+        phrase16: '¡Gracias!',
+        phrase17: 'Nos pondremos en contacto contigo en breve.',
+        email: 'Tu correo electrónico',
+        button: 'Obtener ofertas'
     }
 }
