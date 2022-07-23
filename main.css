@@ -1,0 +1,40 @@
+body {
+	background: url('img/bg.png');
+}
+
+#form {
+	margin: 12px 0;
+	background: #fff;
+	border-radius: 16px;
+	box-shadow: 0 0 32px rgb(0 0 0 / 8%);
+}
+
+#alert {
+	display: none;
+}
+
+@media (max-width: 576px) {
+	#form {
+		box-shadow: none;
+		padding: 0 !important;
+		margin: 25px 8px 30px;
+	}
+
+	body {
+		background: none;
+	}
+}
+
+.iti {
+	width: 100%;
+}
+
+.gender img {
+	transition: 0.15s;
+}
+
+.gender input:checked+label img,
+.gender input:hover+label img {
+	filter: invert(1);
+	opacity: 1 !important;
+}
