@@ -2,22 +2,32 @@
 var queryParams = new Proxy(new URLSearchParams(window.location.search), {
 	get: (searchParams, prop) => searchParams.get(prop),
 });
-var button = document.querySelector('#button')
-var form = document.querySelector('#form')
-var alert = document.querySelector('#alert')
-var geo = queryParams.geo;
-var lang = queryParams.lang;
+var button = document.querySelector('#button');
+var form = document.querySelector('#form');
+var alert = document.querySelector('#alert');
+var country_code = queryParams.country_code;
+var language = queryParams.language;
 
 // Проверка телефона
 var input = document.querySelector("#phone");
 var errorMsg = document.querySelector("#error-msg");
 var errorMap = ["Invalid number", "Invalid country code", "Too short", "Too long", "Invalid number"];
-var iti = window.intlTelInput(input, ({
-	nationalMode: false,
-	autoHideDialCode: false,
-	initialCountry: geo || 'ru',
-	utilsScript: "intlTelInput/js/utils.js"
-}));
+var iti;
+try {
+	iti = window.intlTelInput(input, ({
+		nationalMode: false,
+		autoHideDialCode: false,
+		initialCountry: country_code || 'us',
+		utilsScript: "intlTelInput/js/utils.js"
+	}));
+} catch (e) {
+	iti = window.intlTelInput(input, ({
+		nationalMode: false,
+		autoHideDialCode: false,
+		initialCountry: 'us',
+		utilsScript: "intlTelInput/js/utils.js"
+	}));
+}
 var reset = function() {
 	input.classList.remove("is-invalid");
 	errorMsg.innerHTML = "";
@@ -61,8 +71,8 @@ form.addEventListener('submit', function(event) {
 		age: data.get("age"),
 		phone: data.get("phone"),
 		email: data.get("email"),
-		geo,
-		lang
+		country_code,
+		language
 	}
 	button.disabled = true;
 	document.getElementById("button").innerHTML = '<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>';
@@ -76,7 +86,8 @@ form.addEventListener('submit', function(event) {
 });
 
 //Перевод
-const translationData = translation[lang] || translation.en
+var currentLanguage = language?.toLowerCase().split("-").shift();
+var translationData = translation[currentLanguage] || translation.en;
 document.getElementById("phrase1").innerHTML = translationData.phrase1;
 document.getElementById("phrase2").innerHTML = translationData.phrase2;
 document.getElementById("phrase3").innerHTML = translationData.phrase3;
