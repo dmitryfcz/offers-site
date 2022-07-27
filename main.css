@@ -34,7 +34,7 @@ body {
 	}
 }
 
-.iti {
+.iti.iti--allow-dropdown {
 	width: 100%;
 }
 
@@ -68,4 +68,8 @@ body {
     background: #fff;
     border-radius: 16px;
 	margin: 0 15px;
+}
+
+#phrase22 {
+	font-size: 12px;
 }
