@@ -12,33 +12,35 @@
       <div class="container min-vh-100 d-flex justify-content-center align-items-center">
          <form id="form" class="p-5">
             <p class="text-center"><strong id="phrase1"></strong></p>
-            <div class="form-check">
-               <input class="form-check-input" type="checkbox" name="option" id="option1" value="Make money">
-               <label class="form-check-label" for="option1">
-                  <strong id="phrase2"></strong>
-                  <div class="text-muted mb-2" id="phrase3"></div>
-               </label>
-            </div>
-            <div class="form-check">
-               <input class="form-check-input" type="checkbox" name="option" id="option2" value="Gambling">
-               <label class="form-check-label" for="option2">
-                  <strong id="phrase4"></strong>
-                  <div class="text-muted mb-2" id="phrase5"></div>
-               </label>
-            </div>
-            <div class="form-check">
-               <input class="form-check-input" type="checkbox" name="option" id="option3" value="Online dating">
-               <label class="form-check-label" for="option3">
-                  <strong id="phrase6"></strong>
-                  <div class="text-muted mb-2" id="phrase7"></div>
-               </label>
-            </div>
-            <div class="form-check">
-               <input class="form-check-input" type="checkbox" name="option" id="option4" value="Sweepstakes">
-               <label class="form-check-label" for="option4">
-                  <strong id="phrase8"></strong>
-                  <div class="text-muted mb-2" id="phrase9"></div>
-               </label>
+            <div class="checkbox-group">
+               <div class="form-check">
+                  <input class="form-check-input option-checkbox" type="checkbox" name="option" id="option1" value="Make money">
+                  <label class="form-check-label" for="option1">
+                     <strong id="phrase2"></strong>
+                     <div class="text-muted mb-2" id="phrase3"></div>
+                  </label>
+               </div>
+               <div class="form-check">
+                  <input class="form-check-input option-checkbox" type="checkbox" name="option" id="option2" value="Gambling">
+                  <label class="form-check-label" for="option2">
+                     <strong id="phrase4"></strong>
+                     <div class="text-muted mb-2" id="phrase5"></div>
+                  </label>
+               </div>
+               <div class="form-check">
+                  <input class="form-check-input option-checkbox" type="checkbox" name="option" id="option3" value="Online dating">
+                  <label class="form-check-label" for="option3">
+                     <strong id="phrase6"></strong>
+                     <div class="text-muted mb-2" id="phrase7"></div>
+                  </label>
+               </div>
+               <div class="form-check">
+                  <input class="form-check-input option-checkbox" type="checkbox" name="option" id="option4" value="Sweepstakes">
+                  <label class="form-check-label" for="option4">
+                     <strong id="phrase8"></strong>
+                     <div class="text-muted mb-2" id="phrase9"></div>
+                  </label>
+               </div>
             </div>
             <p class="mt-3 text-center"><strong id="phrase10"></strong></p>
             <div class="btn-group d-flex gender">
@@ -132,13 +134,23 @@
             <div class="invalid-feedback d-block" id="error-msg"></div>
             <p class="mt-3 text-center"><strong id="phrase15"></strong></p>
             <input class="form-control" type="email" placeholder="" id="email" name="email" required >
-            <button id="button" type="submit" class="btn btn-primary w-100 mt-4"></button>
+            <p id="phrase22" class="mt-4"></p>
+            <button id="button" type="submit" class="btn btn-primary w-100 mt-2"></button>
+            <p id="phrase18" class="text-danger mt-3"></p>
          </form>
          <div class="alert alert-success" id="alert">
             <div class="mb-2"><strong id="phrase16"></strong></div>
             <div id="phrase17"></div>
           </div>
       </div>
+      <div class="cookie-wrapper">
+         <div class="cookie p-4">
+            <p id="phrase19"></p>
+            <p id="phrase20"></p>
+            <button class="btn btn-primary w-100 mt-2" id="phrase21"></button>
+         </div>
+      </div>
+      <script src="jquery.min.js"></script>
       <script src="intlTelInput/js/intlTelInput.min.js"></script>
       <script src="translation.js"></script>
       <script src="main.js"></script>

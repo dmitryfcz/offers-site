@@ -1,0 +1,1 @@
+<?php echo 'The form has been successfully sent.' />

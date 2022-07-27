@@ -1,1 +1,123 @@
-var _0xfbbb=["\x73\x65\x61\x72\x63\x68","\x6C\x6F\x63\x61\x74\x69\x6F\x6E","\x67\x65\x74","\x23\x62\x75\x74\x74\x6F\x6E","\x71\x75\x65\x72\x79\x53\x65\x6C\x65\x63\x74\x6F\x72","\x23\x66\x6F\x72\x6D","\x23\x61\x6C\x65\x72\x74","\x63\x6F\x75\x6E\x74\x72\x79\x5F\x63\x6F\x64\x65","\x6C\x61\x6E\x67\x75\x61\x67\x65","\x23\x70\x68\x6F\x6E\x65","\x23\x65\x72\x72\x6F\x72\x2D\x6D\x73\x67","\x49\x6E\x76\x61\x6C\x69\x64\x20\x6E\x75\x6D\x62\x65\x72","\x49\x6E\x76\x61\x6C\x69\x64\x20\x63\x6F\x75\x6E\x74\x72\x79\x20\x63\x6F\x64\x65","\x54\x6F\x6F\x20\x73\x68\x6F\x72\x74","\x54\x6F\x6F\x20\x6C\x6F\x6E\x67","\x75\x73","\x69\x6E\x74\x6C\x54\x65\x6C\x49\x6E\x70\x75\x74\x2F\x6A\x73\x2F\x75\x74\x69\x6C\x73\x2E\x6A\x73","\x69\x6E\x74\x6C\x54\x65\x6C\x49\x6E\x70\x75\x74","\x69\x73\x2D\x69\x6E\x76\x61\x6C\x69\x64","\x72\x65\x6D\x6F\x76\x65","\x63\x6C\x61\x73\x73\x4C\x69\x73\x74","\x69\x6E\x6E\x65\x72\x48\x54\x4D\x4C","","\x68\x69\x64\x65","\x61\x64\x64","\x67\x65\x74\x56\x61\x6C\x69\x64\x61\x74\x69\x6F\x6E\x45\x72\x72\x6F\x72","\x62\x6C\x75\x72","\x74\x72\x69\x6D","\x76\x61\x6C\x75\x65","\x69\x73\x56\x61\x6C\x69\x64\x4E\x75\x6D\x62\x65\x72","\x61\x64\x64\x45\x76\x65\x6E\x74\x4C\x69\x73\x74\x65\x6E\x65\x72","\x63\x68\x61\x6E\x67\x65","\x6B\x65\x79\x75\x70","\x63\x6C\x69\x63\x6B","\x63\x6C\x69\x63\x6B\x5F\x62\x75\x74\x74\x6F\x6E","\x70\x75\x73\x68","\x73\x75\x62\x6D\x69\x74","\x70\x72\x65\x76\x65\x6E\x74\x44\x65\x66\x61\x75\x6C\x74","\x74\x61\x72\x67\x65\x74","\x6F\x70\x74\x69\x6F\x6E","\x67\x65\x74\x41\x6C\x6C","\x67\x65\x6E\x64\x65\x72","\x61\x67\x65","\x70\x68\x6F\x6E\x65","\x65\x6D\x61\x69\x6C","\x64\x69\x73\x61\x62\x6C\x65\x64","\x62\x75\x74\x74\x6F\x6E","\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x42\x79\x49\x64","\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x73\x70\x69\x6E\x6E\x65\x72\x2D\x62\x6F\x72\x64\x65\x72\x20\x73\x70\x69\x6E\x6E\x65\x72\x2D\x62\x6F\x72\x64\x65\x72\x2D\x73\x6D\x22\x20\x72\x6F\x6C\x65\x3D\x22\x73\x74\x61\x74\x75\x73\x22\x20\x61\x72\x69\x61\x2D\x68\x69\x64\x64\x65\x6E\x3D\x22\x74\x72\x75\x65\x22\x3E\x3C\x2F\x73\x70\x61\x6E\x3E","\x64\x69\x73\x70\x6C\x61\x79","\x73\x74\x79\x6C\x65","\x6E\x6F\x6E\x65","\x62\x6C\x6F\x63\x6B","\x66\x6F\x72\x6D\x61\x5F\x73\x65\x6E\x64","\x73\x68\x69\x66\x74","\x2D","\x73\x70\x6C\x69\x74","\x74\x6F\x4C\x6F\x77\x65\x72\x43\x61\x73\x65","\x65\x6E","\x70\x68\x72\x61\x73\x65\x31","\x70\x68\x72\x61\x73\x65\x32","\x70\x68\x72\x61\x73\x65\x33","\x70\x68\x72\x61\x73\x65\x34","\x70\x68\x72\x61\x73\x65\x35","\x70\x68\x72\x61\x73\x65\x36","\x70\x68\x72\x61\x73\x65\x37","\x70\x68\x72\x61\x73\x65\x38","\x70\x68\x72\x61\x73\x65\x39","\x70\x68\x72\x61\x73\x65\x31\x30","\x70\x68\x72\x61\x73\x65\x31\x31","\x70\x68\x72\x61\x73\x65\x31\x32","\x70\x68\x72\x61\x73\x65\x31\x33","\x70\x68\x72\x61\x73\x65\x31\x34","\x70\x68\x72\x61\x73\x65\x31\x35","\x70\x68\x72\x61\x73\x65\x31\x36","\x70\x68\x72\x61\x73\x65\x31\x37","\x70\x6C\x61\x63\x65\x68\x6F\x6C\x64\x65\x72"];var queryParams= new Proxy( new URLSearchParams(window[_0xfbbb[1]][_0xfbbb[0]]),{get:(_0x3225x2,_0x3225x3)=>{return _0x3225x2[_0xfbbb[2]](_0x3225x3)}});var button=document[_0xfbbb[4]](_0xfbbb[3]);var form=document[_0xfbbb[4]](_0xfbbb[5]);var alert=document[_0xfbbb[4]](_0xfbbb[6]);var country_code=queryParams[_0xfbbb[7]];var language=queryParams[_0xfbbb[8]];var input=document[_0xfbbb[4]](_0xfbbb[9]);var errorMsg=document[_0xfbbb[4]](_0xfbbb[10]);var errorMap=[_0xfbbb[11],_0xfbbb[12],_0xfbbb[13],_0xfbbb[14],_0xfbbb[11]];var iti;try{iti= window[_0xfbbb[17]](input,({nationalMode:false,autoHideDialCode:false,initialCountry:country_code|| _0xfbbb[15],utilsScript:_0xfbbb[16]}))}catch(e){iti= window[_0xfbbb[17]](input,({nationalMode:false,autoHideDialCode:false,initialCountry:_0xfbbb[15],utilsScript:_0xfbbb[16]}))};var reset=function(){input[_0xfbbb[20]][_0xfbbb[19]](_0xfbbb[18]);errorMsg[_0xfbbb[21]]= _0xfbbb[22];errorMsg[_0xfbbb[20]][_0xfbbb[24]](_0xfbbb[23])};var setPhoneError=function(){input[_0xfbbb[20]][_0xfbbb[24]](_0xfbbb[18]);var _0x3225xf=iti[_0xfbbb[25]]();errorMsg[_0xfbbb[21]]= errorMap[_0x3225xf]|| _0xfbbb[11];errorMsg[_0xfbbb[20]][_0xfbbb[19]](_0xfbbb[23])};input[_0xfbbb[30]](_0xfbbb[26],function(){reset();if(input[_0xfbbb[28]][_0xfbbb[27]]()){if(!iti[_0xfbbb[29]]()){setPhoneError()}}});input[_0xfbbb[30]](_0xfbbb[31],reset);input[_0xfbbb[30]](_0xfbbb[32],reset);button[_0xfbbb[30]](_0xfbbb[33],function(){dataLayer[_0xfbbb[35]]({'\x65\x76\x65\x6E\x74':_0xfbbb[34]})});form[_0xfbbb[30]](_0xfbbb[36],function(_0x3225x10){_0x3225x10[_0xfbbb[37]]();if(!iti[_0xfbbb[29]]()){setPhoneError();return false};var _0x3225x11= new FormData(_0x3225x10[_0xfbbb[38]]);var _0x3225x12={option:_0x3225x11[_0xfbbb[40]](_0xfbbb[39]),gender:_0x3225x11[_0xfbbb[2]](_0xfbbb[41]),age:_0x3225x11[_0xfbbb[2]](_0xfbbb[42]),phone:_0x3225x11[_0xfbbb[2]](_0xfbbb[43]),email:_0x3225x11[_0xfbbb[2]](_0xfbbb[44]),country_code,language};button[_0xfbbb[45]]= true;document[_0xfbbb[47]](_0xfbbb[46])[_0xfbbb[21]]= _0xfbbb[48];setTimeout(function(){form[_0xfbbb[50]][_0xfbbb[49]]= _0xfbbb[51];alert[_0xfbbb[50]][_0xfbbb[49]]= _0xfbbb[52]},2000);dataLayer[_0xfbbb[35]]({'\x65\x76\x65\x6E\x74':_0xfbbb[53]})});var currentLanguage=language[_0xfbbb[57]]()[_0xfbbb[56]](_0xfbbb[55])[_0xfbbb[54]]();var translationData=translation[currentLanguage]|| translation[_0xfbbb[58]];document[_0xfbbb[47]](_0xfbbb[59])[_0xfbbb[21]]= translationData[_0xfbbb[59]];document[_0xfbbb[47]](_0xfbbb[60])[_0xfbbb[21]]= translationData[_0xfbbb[60]];document[_0xfbbb[47]](_0xfbbb[61])[_0xfbbb[21]]= translationData[_0xfbbb[61]];document[_0xfbbb[47]](_0xfbbb[62])[_0xfbbb[21]]= translationData[_0xfbbb[62]];document[_0xfbbb[47]](_0xfbbb[63])[_0xfbbb[21]]= translationData[_0xfbbb[63]];document[_0xfbbb[47]](_0xfbbb[64])[_0xfbbb[21]]= translationData[_0xfbbb[64]];document[_0xfbbb[47]](_0xfbbb[65])[_0xfbbb[21]]= translationData[_0xfbbb[65]];document[_0xfbbb[47]](_0xfbbb[66])[_0xfbbb[21]]= translationData[_0xfbbb[66]];document[_0xfbbb[47]](_0xfbbb[67])[_0xfbbb[21]]= translationData[_0xfbbb[67]];document[_0xfbbb[47]](_0xfbbb[68])[_0xfbbb[21]]= translationData[_0xfbbb[68]];document[_0xfbbb[47]](_0xfbbb[69])[_0xfbbb[21]]= translationData[_0xfbbb[69]];document[_0xfbbb[47]](_0xfbbb[70])[_0xfbbb[21]]= translationData[_0xfbbb[70]];document[_0xfbbb[47]](_0xfbbb[71])[_0xfbbb[21]]= translationData[_0xfbbb[71]];document[_0xfbbb[47]](_0xfbbb[72])[_0xfbbb[21]]= translationData[_0xfbbb[72]];document[_0xfbbb[47]](_0xfbbb[73])[_0xfbbb[21]]= translationData[_0xfbbb[73]];document[_0xfbbb[47]](_0xfbbb[74])[_0xfbbb[21]]= translationData[_0xfbbb[74]];document[_0xfbbb[47]](_0xfbbb[75])[_0xfbbb[21]]= translationData[_0xfbbb[75]];document[_0xfbbb[47]](_0xfbbb[44])[_0xfbbb[76]]= translationData[_0xfbbb[44]];document[_0xfbbb[47]](_0xfbbb[46])[_0xfbbb[21]]= translationData[_0xfbbb[46]]
+// Общее
+var queryParams = new Proxy(new URLSearchParams(window.location.search), {
+	get: (searchParams, prop) => searchParams.get(prop),
+});
+var button = document.querySelector('#button');
+var form = document.querySelector('#form');
+var alert = document.querySelector('#alert');
+var country_code = queryParams.country_code;
+var language = queryParams.language;
+
+// Проверка телефона
+var input = document.querySelector("#phone");
+var errorMsg = document.querySelector("#error-msg");
+var errorMap = ["Invalid number", "Invalid country code", "Too short", "Too long", "Invalid number"];
+var iti;
+try {
+	iti = window.intlTelInput(input, ({
+		nationalMode: false,
+		autoHideDialCode: false,
+		initialCountry: country_code || 'us',
+		utilsScript: "intlTelInput/js/utils.js"
+	}));
+} catch (e) {
+	iti = window.intlTelInput(input, ({
+		nationalMode: false,
+		autoHideDialCode: false,
+		initialCountry: 'us',
+		utilsScript: "intlTelInput/js/utils.js"
+	}));
+}
+var reset = function() {
+	input.classList.remove("is-invalid");
+	errorMsg.innerHTML = "";
+	errorMsg.classList.add("hide");
+};
+var setPhoneError = function() {
+	input.classList.add("is-invalid");
+	var errorCode = iti.getValidationError();
+	errorMsg.innerHTML = errorMap[errorCode] || "Invalid number";
+	errorMsg.classList.remove("hide");
+}
+input.addEventListener('blur', function() {
+	reset();
+	if (input.value.trim()) {
+		if (!iti.isValidNumber()) {
+			setPhoneError();
+		}
+	}
+});
+input.addEventListener('change', reset);
+input.addEventListener('keyup', reset);
+
+// Клик по кнопке
+button.addEventListener('click', function() {
+	dataLayer.push({
+		'event': 'click_button'
+	})
+});
+
+// Отправка формы
+form.addEventListener('submit', function(event) {
+	event.preventDefault();
+
+    // Проверка выбрана ли опция
+    var checkboxSetted = $('.checkbox-group :checkbox:checked').length > 0;
+    $(".option-checkbox").removeClass("is-invalid");
+    $("#phrase18").hide();
+    if (!checkboxSetted) {
+        $(".option-checkbox").addClass("is-invalid");
+        $("#phrase18").show();
+        return false;
+    }
+
+    // Проверка телефона
+	if (!iti.isValidNumber()) {
+		setPhoneError();
+		return false
+	}
+
+	var data = new FormData(event.target);
+	var formData = {
+		option: data.getAll("option"),
+		gender: data.get("gender"),
+		age: data.get("age"),
+		phone: data.get("phone"),
+		email: data.get("email"),
+		country_code,
+		language
+	}
+
+    button.disabled = true;
+    document.getElementById("button").innerHTML = '<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>';
+
+    $.ajax({
+        type: "POST",
+        url: "send.php",
+        data: formData,
+        success: function () {
+            form.style.display = 'none';
+            alert.style.display = 'block';
+            dataLayer.push({
+                'event': 'forma_send'
+            })
+        }
+    });
+});
+
+//Перевод
+var currentLanguage = language?.toLowerCase().split("-").shift();
+var translationData = translation[currentLanguage] || translation.en;
+$.each(translationData, function(key, value) {
+    document.getElementById(key).innerHTML = value;
+});
+
+
+// Проверка cookie
+$("#phrase21").click(function() {
+    $(".cookie-wrapper").hide();
+    localStorage.setItem('cookie', 'yes');
+})
+if (localStorage.getItem('cookie') !== 'yes') {
+    $(".cookie-wrapper").css('display', 'flex');
+}

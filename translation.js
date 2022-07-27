@@ -17,6 +17,11 @@ var translation = {
         phrase15: 'Your email: *',
         phrase16: 'Thank you!',
         phrase17: 'We will contact you shortly.',
+        phrase18: 'Choose one or more options.',
+        phrase19: 'We use cookies to make your experience on our site even better. They help us to understand how you use our site, and tailor the adverts you might see.',
+        phrase20: 'By clicking "Accept all" you are agreeing to our use of cookies. If you want to know more, you can read our <a href="cookie.html" target="_blank">cookie policy</a>.',
+        phrase21: 'Accept all',
+        phrase22: 'By clicking "Get offers" you are agreeing with our <a href="terms.html" target="_blank">terms & conditions</a> and confirming you have read our <a href="privacy.html" target="_blank">privacy policy</a>.',
         email: 'Your email',
         button: 'Get offers'
     },
@@ -38,6 +43,7 @@ var translation = {
         phrase15: 'Tu correo electrónico: *',
         phrase16: '¡Gracias!',
         phrase17: 'Nos pondremos en contacto contigo en breve.',
+        phrase18: 'Choose one or more options.',
         email: 'Tu correo electrónico',
         button: 'Obtener ofertas'
     }

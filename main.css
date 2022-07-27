@@ -7,15 +7,16 @@ body {
 	background: #fff;
 	border-radius: 16px;
 	box-shadow: 0 0 32px rgb(0 0 0 / 8%);
+	max-width: 600px;
 }
 
 #alert {
 	display: none;
+	text-align: center;
 }
 
 @media (min-width: 577px) {
 	#alert {
-		text-align: center;
 		font-size: 24px;
 		padding: 30px 50px;
 	}
@@ -45,4 +46,26 @@ body {
 .gender input:hover+label img {
 	filter: invert(1);
 	opacity: 1 !important;
+}
+
+#phrase18 {
+	display: none;
+}
+
+.cookie-wrapper {
+	display: none;
+	position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background: rgba(0,0,0,0.3);
+    align-items: center;
+    justify-content: center;
+}
+.cookie {
+	max-width: 550px;
+    background: #fff;
+    border-radius: 16px;
+	margin: 0 15px;
 }
