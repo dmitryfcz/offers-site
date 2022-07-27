@@ -1,1 +1,1 @@
-<?php echo 'The form has been successfully sent.' />
+<?php echo 'The form has been successfully sent.' ?>

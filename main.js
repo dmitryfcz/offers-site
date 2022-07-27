@@ -91,18 +91,20 @@ form.addEventListener('submit', function(event) {
     button.disabled = true;
     document.getElementById("button").innerHTML = '<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>';
 
-    $.ajax({
-        type: "POST",
-        url: "send.php",
-        data: formData,
-        success: function () {
-            form.style.display = 'none';
-            alert.style.display = 'block';
-            dataLayer.push({
-                'event': 'forma_send'
-            })
-        }
-    });
+    setTimeout(function() {
+		$.ajax({
+			type: "POST",
+			url: "send.php",
+			data: formData,
+			success: function () {
+				form.style.display = 'none';
+				alert.style.display = 'block';
+				dataLayer.push({
+					'event': 'forma_send'
+				})
+			}
+		})
+	}, 3000);
 });
 
 //Перевод
